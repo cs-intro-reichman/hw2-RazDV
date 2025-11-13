@@ -8,9 +8,9 @@ Great work boaz!
 // Prints a crowd cheering output.
 public class Cheers {
         public static void main(String[] args) {
-	        String shout = args[0];
+	        String shout = args[0].toUpperCase();
                 int repeat = Integer.parseInt(args[1]);
-                String AnA = "A";
+                String AnA;
                 String anCauser = "AEFHILMNORSX";
 
                 for (int i = 0; i < shout.length(); i++) {
